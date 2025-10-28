@@ -1,2 +1,32 @@
 # laboratorio-2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 git clone link-del-repositorio Sirve para, por así decirlo, descargar o situarte en el repositorio de GitHub en tu computadora, para poder trabajar en él localmente. cd laboratorio-2 Este comando es para situarte dentro de la carpeta del proyecto, o sea en el lugar donde vas a trabajar. dir Muestra todos los archivos y carpetas creadas dentro de la ubicación actual. Es para ver qué hay dentro del proyecto. git branch Muestra en qué branch estamos situados y qué otras branches existen en el proyecto local. git checkout -b nombredelabranch Crea una nueva branch y automáticamente te cambia a esa branch para trabajar ahí. git status Muestra el estado actual de los archivos, o sea cuáles cambiamos antes de guardarlos con un commit. git add . Agrega todos los archivos modificados para prepararlos para el commit. git commit -m "mensaje" Guarda los cambios que agregamos con un mensaje que explica lo que hicimos. Ese mensaje queda guardado en el historial. git push origin nombredelabranch Sube la branch y todos los cambios al repositorio remoto, así ya se pueden ver en GitHub. git rebase nombre-de-la-branch Sirve para actualizar tu branch con los cambios más recientes de otra branch (por lo general main). Reordena la historia del proyecto para que tus commits queden después de los cambios nuevos, manteniendo el historial más limpio y organizado. git rebase --continue Se utiliza cuando durante un rebase aparece un conflicto. Luego de resolver manualmente esos conflictos en los archivos, este comando permite continuar el proceso del rebase hasta finalizar.
