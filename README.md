@@ -19,8 +19,7 @@ Descarga los últimos cambios del repositorio remoto y los integra con tu copia 
 git rebase
 Permite reestructurar el historial de commits moviendo los cambios de una rama sobre otra. Se usa para mantener un historial más limpio y lineal. Por ejemplo, git rebase origin/main actualiza tu rama aplicando tus commits sobre la versión más reciente de la rama principal.
 
-git rebase -i HEAD~x
-Realiza un rebase interactivo, donde puedes combinar, editar o eliminar los últimos commits. Se usa para limpiar el historial antes de subir los cambios. Por ejemplo, git rebase -i HEAD~3 te permite revisar y modificar los tres últimos commits.
+git rebase -i HEAD~x hace un rebase interactivo, que te permite combinar, editar o eliminar los últimos commits. Se usa para limpiar el historial antes de subir los cambios. Por ejemplo, git rebase -i HEAD~3 te deja revisar y modificar los tres últimos commits.
 
 git status
 Muestra el estado actual del repositorio: qué archivos han cambiado, cuáles están listos para commit y cuáles no están rastreados por Git. Es uno de los comandos más usados para verificar el progreso antes de confirmar los cambios.
