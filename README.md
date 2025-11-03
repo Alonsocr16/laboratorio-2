@@ -38,3 +38,4 @@ Elimina una rama local de manera forzada. Este comando es útil cuando una rama 
 
 git checkout
 Sirve para cambiar de rama o restaurar archivos a un estado anterior. Por ejemplo, git checkout main cambia a la rama principal, y git checkout -b nueva-rama crea una nueva rama y cambia a ella. También se puede usar git checkout -- archivo.txt para descartar cambios locales en un archivo.
+p
